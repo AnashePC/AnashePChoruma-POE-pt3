@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="18" name="KhanbanTasks.TaskTest" time="4.485" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\Desktop\anashe\KanbanProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\User\Desktop\anashe\KanbanProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-17\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\NetBeans-17\netbeans\java\maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="64.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\NetBeans-17\netbeans\java\maven\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="20"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-17\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar --no-transfer-progress clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-17\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetDeveloperDetails" time="0.122">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetDeveloperDetails(TaskTest.java:106)
+</failure>
+    <system-out>getDeveloperDetails
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetTaskDuration" time="0">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskDuration(TaskTest.java:227)
+</failure>
+    <system-out>setTaskDuration
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testCheckTaskDescription" time="4.245">
+    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at KhanbanTasks.TaskTest.testCheckTaskDescription(TaskTest.java:239)
+</failure>
+    <system-out>checkTaskDescription
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetTaskDescription" time="0">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskDescription(TaskTest.java:92)
+</failure>
+    <system-out>setTaskDescription
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testPrintTaskDetails" time="0.01">
+    <failure message="expected: &lt;&gt; but was: &lt;  0     0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&gt; but was: &lt;  0     0&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at KhanbanTasks.TaskTest.testPrintTaskDetails(TaskTest.java:267)
+</failure>
+    <system-out>printTaskDetails
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testReturnTotalHours" time="0.1">
+    <failure message="Cannot invoke &quot;java.util.List.iterator()&quot; because &quot;taskList&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.iterator()&quot; because &quot;taskList&quot; is null
+	at rayhaan.kanban.Task.returnTotalHours(Task.java:100)
+	at KhanbanTasks.TaskTest.testReturnTotalHours(TaskTest.java:281)
+</failure>
+    <system-out>returnTotalHours
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetTaskDescription" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskDescription(TaskTest.java:79)
+</failure>
+    <system-out>getTaskDescription
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetTaskDuration" time="0">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskDuration(TaskTest.java:187)
+</failure>
+    <system-out>getTaskDuration
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetDeveloperDetails" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetDeveloperDetails(TaskTest.java:119)
+</failure>
+    <system-out>setDeveloperDetails
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetTaskName" time="0">
+    <failure message="expected: &lt;Login Feature&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Login Feature&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at KhanbanTasks.TaskTest.testGetTaskName(TaskTest.java:50)
+</failure>
+    <system-out>getTaskName
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetTaskStatus" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskStatus(TaskTest.java:160)
+</failure>
+    <system-out>getTaskStatus
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetTaskNumber" time="0">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskNumber(TaskTest.java:214)
+</failure>
+    <system-out>getTaskNumber
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetTaskName" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskName(TaskTest.java:65)
+</failure>
+    <system-out>setTaskName
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetTaskId" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskId(TaskTest.java:146)
+</failure>
+    <system-out>setTaskId
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetTaskStatus" time="0">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskStatus(TaskTest.java:173)
+</failure>
+    <system-out>setTaskStatus
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testGetTaskId" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskId(TaskTest.java:133)
+</failure>
+    <system-out>getTaskId
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testSetTaskNumber" time="0">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskNumber(TaskTest.java:200)
+</failure>
+    <system-out>setTaskNumber
+</system-out>
+  </testcase>
+  <testcase classname="KhanbanTasks.TaskTest" name="KhanbanTasks.TaskTest.testCreateTaskID" time="0.002">
+    <failure message="Range [0, 2) out of bounds for length 0" type="java.lang.StringIndexOutOfBoundsException">java.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4608)
+	at java.base/java.lang.String.substring(String.java:2720)
+	at rayhaan.kanban.Task.createTaskID(Task.java:87)
+	at KhanbanTasks.TaskTest.testCreateTaskID(TaskTest.java:252)
+</failure>
+    <system-out>createTaskID
+</system-out>
+  </testcase>
+</testsuite>

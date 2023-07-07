@@ -1,0 +1,128 @@
+-------------------------------------------------------------------------------
+Test set: KhanbanTasks.TaskTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 4.489 sec <<< FAILURE!
+KhanbanTasks.TaskTest.testGetDeveloperDetails()  Time elapsed: 0.122 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetDeveloperDetails(TaskTest.java:106)
+
+KhanbanTasks.TaskTest.testSetTaskDuration()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskDuration(TaskTest.java:227)
+
+KhanbanTasks.TaskTest.testCheckTaskDescription()  Time elapsed: 4.245 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at KhanbanTasks.TaskTest.testCheckTaskDescription(TaskTest.java:239)
+
+KhanbanTasks.TaskTest.testSetTaskDescription()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskDescription(TaskTest.java:92)
+
+KhanbanTasks.TaskTest.testPrintTaskDetails()  Time elapsed: 0.01 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <  0     0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at KhanbanTasks.TaskTest.testPrintTaskDetails(TaskTest.java:267)
+
+KhanbanTasks.TaskTest.testReturnTotalHours()  Time elapsed: 0.1 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "taskList" is null
+	at rayhaan.kanban.Task.returnTotalHours(Task.java:100)
+	at KhanbanTasks.TaskTest.testReturnTotalHours(TaskTest.java:281)
+
+KhanbanTasks.TaskTest.testGetTaskDescription()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskDescription(TaskTest.java:79)
+
+KhanbanTasks.TaskTest.testGetTaskDuration()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskDuration(TaskTest.java:187)
+
+KhanbanTasks.TaskTest.testSetDeveloperDetails()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetDeveloperDetails(TaskTest.java:119)
+
+KhanbanTasks.TaskTest.testGetTaskName()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Login Feature> but was: <>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at KhanbanTasks.TaskTest.testGetTaskName(TaskTest.java:50)
+
+KhanbanTasks.TaskTest.testGetTaskStatus()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskStatus(TaskTest.java:160)
+
+KhanbanTasks.TaskTest.testGetTaskNumber()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskNumber(TaskTest.java:214)
+
+KhanbanTasks.TaskTest.testSetTaskName()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskName(TaskTest.java:65)
+
+KhanbanTasks.TaskTest.testSetTaskId()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskId(TaskTest.java:146)
+
+KhanbanTasks.TaskTest.testSetTaskStatus()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskStatus(TaskTest.java:173)
+
+KhanbanTasks.TaskTest.testGetTaskId()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testGetTaskId(TaskTest.java:133)
+
+KhanbanTasks.TaskTest.testSetTaskNumber()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at KhanbanTasks.TaskTest.testSetTaskNumber(TaskTest.java:200)
+
+KhanbanTasks.TaskTest.testCreateTaskID()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4608)
+	at java.base/java.lang.String.substring(String.java:2720)
+	at rayhaan.kanban.Task.createTaskID(Task.java:87)
+	at KhanbanTasks.TaskTest.testCreateTaskID(TaskTest.java:252)
+
